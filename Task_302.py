@@ -15,7 +15,6 @@ def mult_pair_index(my_list: list) -> list:
         for i in range(len(my_list)//2+1 - count):
             mult_list.append(my_list[i] * my_list[-1-count])
             count += 1
-
     return mult_list
 
 def mult_pair_index_ver_2(my_list: list) -> list:
